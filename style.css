@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    Font-Family: 'Lora', Serif;
+    Font-Size: 14px;
+}
+body{
+    background-color: black;
+}
+#title{
+   background-color: rgba(0,0,0);
+   color:red;
+   text-align: center;
+   margin-top: 40px;
+   padding: 5em 0;
+   border-bottom: 2px dashed white;
+}
+
+#title h1{
+    Font-Family: 'Roboto', Sans-Serif;
+    Font-Size: 48px; 
+}
+
+#title p{
+    font-weight: 100;
+    font-size: 1.3em;
+    padding-top: 2em;
+}
+
+#main{
+    width: 100%;
+    
+}
+
+#img-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+figure{
+    width: 50%;
+    text-align: center;
+    padding: 2em 0;
+}
+figcaption{
+    margin-top: 0.9em;
+    font-size: 1em;
+}
+#img{
+    max-width: 100%;
+    height: auto;
+}
+
+#tribute-info{
+    background-color: black;
+    color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#tribute-timeline{
+    width: 45%;
+    text-align: center;
+    
+}
+
+#tribute-title{
+    Font-Family: 'Roboto', Sans-Serif;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+#tribute-timeline ul{
+    text-align: justify;
+}
+
+#tribute-timeline li{
+    padding: 0.9em;
+    font-size: 0.9em;
+    border-bottom: 2px dashed white;
+}
+
+#tribute-timeline li:last-child{
+    border: none;
+}
+
+#tribute-timeline strong{
+    color: white;
+    font-size: 1.2em;
+}
+#tribute-timeline i{
+    color: rgba(255, 193, 164, 0.801);
+}
+
+#footer{
+    padding: 3em;
+    margin: 1em;
+    text-align: center;
+    color: white;
+    border-top: 2px dashed white;
+}
+
+#tribute-link{
+    color: red;
+    text-decoration: none;
+}
+#footer p{
+    font-size: 1.1em;
+}
+
+
+@media (max-width: 600px){
+    #tribute-timeline{
+        width: 80%;
+        line-height: 1.4em;
+    }
+}
